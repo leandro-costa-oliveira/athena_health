@@ -1,0 +1,104 @@
+---
+http_interactions:
+  - request:
+      method: get
+      uri: https://api.preview.platform.athenahealth.com/v1/195900/documenttypes?searchvalue=order
+      body:
+        encoding: UTF-8
+        string: ""
+      headers:
+        User-Agent:
+          - Typhoeus - https://github.com/typhoeus/typhoeus
+        Authorization:
+          - Bearer test_access_token
+        Expect:
+          - ""
+    response:
+      status:
+        code: 200
+        message: OK
+      headers:
+        Date:
+          - Thu, 20 Feb 2025 16:31:37 GMT
+        Content-Type:
+          - application/json; charset=UTF-8
+        Content-Length:
+          - "4413"
+        Connection:
+          - keep-alive
+        Server:
+          - Apache
+        Pragma:
+          - No-cache
+        Strict-Transport-Security:
+          - max-age=157680000
+          - max-age=300
+        Expires:
+          - Sun, 06 Jan 2075 16:00:00 GMT
+        Cache-Control:
+          - no-cache, no-store
+        Vary:
+          - Accept-Encoding
+        Accept-Ch:
+          - Sec-CH-UA-Platform-Version
+        Nncoection:
+          - close
+        X-Ratelimit-Limit:
+          - "50000"
+        X-Ratelimit-Remaining:
+          - "49983"
+        X-Request-Id:
+          - rrt-7632918789537924887-d-gea1-2368201-68945947-2
+      body:
+        encoding: ASCII-8BIT
+        string: '{"documenttypes":[{"documenttypeid":391744,"name":"(OTHER): ORDER DELEGATION
+          PROTOCOL*"},{"documenttypeid":387756,"name":"(INPT_NURSING_REPEATING): CUSTOM
+          NURSING ORDER"},{"documenttypeid":348729,"name":"(LAB): ADDITIONAL ORDER CODES"},{"documenttypeid":394130,"name":"(OTHER):
+          DISCHARGE ORDER*"},{"documenttypeid":278029,"name":"(OTHER): DISCONTINUATION
+          ORDER*"},{"documenttypeid":522860,"name":"(OTHER): GROUP HOME ORDER*"},{"documenttypeid":285292,"name":"(OTHER):
+          HOME HEALTH ORDER*"},{"documenttypeid":265732,"name":"(OTHER): POST OPERATIVE
+          HOSPITAL ORDERS, ARM\/ELBOW SURGERY*"},{"documenttypeid":286505,"name":"(OTHER):
+          POST OPERATIVE HOSPITAL ORDERS, COLON RESECTION*"},{"documenttypeid":265731,"name":"(OTHER):
+          POST OPERATIVE HOSPITAL ORDERS, FOOT\/ANKLE SURGERY*"},{"documenttypeid":286506,"name":"(OTHER):
+          POST OPERATIVE HOSPITAL ORDERS, HEMORRHOIDECTOMY\/RECTOCELE REPAIR*"},{"documenttypeid":265729,"name":"(OTHER):
+          POST OPERATIVE HOSPITAL ORDERS, HIP SURGERY*"},{"documenttypeid":265730,"name":"(OTHER):
+          POST OPERATIVE HOSPITAL ORDERS, LEG SURGERY*"},{"documenttypeid":265733,"name":"(OTHER):
+          POST OPERATIVE HOSPITAL ORDERS, SHOULDER SURGERY*"},{"documenttypeid":286507,"name":"(OTHER):
+          POST OPERATIVE OUTPATIENT ORDERS, HEMORRHOIDECTOMY*"},{"documenttypeid":348769,"name":"(OTHER):
+          PRE OPERATIVE ORDERS*"},{"documenttypeid":266041,"name":"(OTHER): PRE OPERATIVE
+          ORDERS, GYN SURGERY*"},{"documenttypeid":-401,"name":"(PATIENTINFO): Information
+          Order Test COC"},{"documenttypeid":-101,"name":"(PATIENTINFO): TEST EDUCATIONAL
+          INFO ORDER"},{"documenttypeid":486256,"name":"(PROCEDURE): SELECTIVE CATHETER
+          PLACEMENT, ARTERIAL SYSTEM, INITIAL THIRD ORDER OR MORE SELECTIVE ABDOMINAL,
+          PELVIC, OR LOWER EXTREMITY ARTERY BRANCH (PROC)"},{"documenttypeid":501652,"name":"(PROCEDURE):
+          SELECTIVE CATHETER PLACEMENT, ARTERIAL SYSTEM; EACH FIRST ORDER ABDOMINAL,
+          PELVIC, OR LOWER EXTREMITY ARTERY BRANCH, WITHIN A VASCULAR FAMILY (PROC)"},{"documenttypeid":499277,"name":"(PROCEDURE):
+          SELECTIVE CATHETER PLACEMENT, ARTERIAL SYSTEM; EACH FIRST ORDER THORACIC OR
+          BRACHIOCEPHALIC BRANCH, WITHIN A VASCULAR FAMILY (PROC)"},{"documenttypeid":499753,"name":"(PROCEDURE):
+          SELECTIVE CATHETER PLACEMENT, ARTERIAL SYSTEM; INITIAL SECOND ORDER THORACIC
+          OR BRACHIOCEPHALIC BRANCH, WITHIN A VASCULAR FAMILY (PROC)"},{"documenttypeid":501685,"name":"(PROCEDURE):
+          SELECTIVE CATHETER PLACEMENT, VENOUS, SECOND ORDER (PROC)"},{"documenttypeid":269821,"name":"(SURGERY):
+          ARTERIAL CATHETERIZATION, SELECTIVE, AORTIC APPROACH: ADDITIONAL PLACEMENT
+          - ABDOMINAL, INITIAL SECOND ORDER (SURG)"},{"documenttypeid":269823,"name":"(SURGERY):
+          ARTERIAL CATHETERIZATION, SELECTIVE, AORTIC APPROACH: ADDITIONAL PLACEMENT
+          - ABDOMINAL, INITIAL THIRD ORDER (SURG)"},{"documenttypeid":299138,"name":"(SURGERY):
+          SELECTIVE CATHETER PLACEMENT, ARTERIAL SYSTEM, ADDITIONAL SECOND ORDER, THIRD
+          ORDER, AND BEYOND, ABDOMINAL, PELVIC, OR LOWER EXTREMITY ARTERY BRANCH (SURG)"},{"documenttypeid":299135,"name":"(SURGERY):
+          SELECTIVE CATHETER PLACEMENT, ARTERIAL SYSTEM, EACH FIRST ORDER ABDOMINAL,
+          PELVIC, OR LOWER EXTREMITY ARTERY BRANCH (SURG)"},{"documenttypeid":299136,"name":"(SURGERY):
+          SELECTIVE CATHETER PLACEMENT, ARTERIAL SYSTEM, INITIAL SECOND ORDER ABDOMINAL,
+          PELVIC, OR LOWER EXTREMITY ARTERY BRANCH (SURG)"},{"documenttypeid":299137,"name":"(SURGERY):
+          SELECTIVE CATHETER PLACEMENT, ARTERIAL SYSTEM, INITIAL THIRD ORDER OR MORE
+          SELECTIVE ABDOMINAL, PELVIC, OR LOWER EXTREMITY ARTERY BRANCH (SURG)"},{"documenttypeid":277541,"name":"(SURGERY):
+          SELECTIVE CATHETER PLACEMENT, VENOUS, FIRST ORDER (SURG)"},{"documenttypeid":277542,"name":"(SURGERY):
+          SELECTIVE CATHETER PLACEMENT, VENOUS, SECOND ORDER (SURG)"},{"documenttypeid":263961,"name":"(DME):
+          CPAP EQUIPMENT"},{"documenttypeid":323925,"name":"(OTHER): INSTRUCTIONS TO
+          ASSISTED LIVING HOME*"},{"documenttypeid":289099,"name":"(OTHER): ORTHOPEDIC
+          SURGERY*"},{"documenttypeid":399931,"name":"(OTHER): PERFORMANCE VIGILANCE
+          TEST*"},{"documenttypeid":391264,"name":"(PROCEDURE): OTHER (PROC)"},{"documenttypeid":501690,"name":"(PROCEDURE):
+          SLCTV CATH 1STORD W\/WO RENAL ARTERIAL PUNCT\/FLUOR\/S&I BILATERAL (PROC)"},{"documenttypeid":501692,"name":"(PROCEDURE):
+          SLCTV CATH 1STORD W\/WO RENAL ARTERIAL PUNCT\/FLUORO\/S&I UNILATERAL (PROC)"},{"documenttypeid":289297,"name":"(SURGERY):
+          ORTHOPAEDIC SURGERY - OTHER (SURG)"},{"documenttypeid":391263,"name":"(SURGERY):
+          OTHER (SURG)"}],"totalcount":41}'
+    recorded_at: Thu, 20 Feb 2025 16:31:37 GMT
+recorded_with: VCR 6.2.0
